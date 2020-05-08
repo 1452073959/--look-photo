@@ -1,0 +1,53 @@
+{
+    "name" : "看图APP2",
+    "appid" : "__UNI__9008E74",
+    "description" : "图片App模版",
+    "transformPx" : false,
+    "icons" : [
+        {
+            "sizes" : "分辨率，192x192",
+            "src" : "图片路径"
+        }
+    ],
+    "versionName" : "1.0.2",
+    "versionCode" : 102,
+    "app-plus" : {
+        "usingComponents" : true,
+        "compilerVersion" : 3,
+        "distribute" : {
+            "sdkConfigs" : {
+                "ad" : {}
+            }
+        },
+        "modules" : {
+            "OAuth" : {},
+            "Share" : {}
+        }
+    },
+    // 5+App特有相关
+    "quickapp" : {},
+    // 快应用特有相关
+    "mp-weixin" : {
+        "setting" : {
+            "urlCheck" : false
+        },
+        "usingComponents" : true,
+        "appid" : "wx0f8e31fa7cdd52bd"
+    },
+    "mp-alipay" : {
+        "usingComponents" : true
+    },
+    "mp-baidu" : {
+        "usingComponents" : true
+    },
+    "mp-toutiao" : {
+        "usingComponents" : true
+    },
+    "h5" : {
+        "template" : "template.h5.html",
+        "router" : {
+            "mode" : "hash",
+            "base" : "/demo/picture/website/"
+        }
+    }
+}

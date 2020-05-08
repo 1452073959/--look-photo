@@ -1,0 +1,1 @@
+<view class="wrap data-v-a2dbf602"><view class="box data-v-a2dbf602"><block wx:for="{{data}}" wx:for-item="item" wx:for-index="__i0__"><view class="img data-v-a2dbf602"><image style="width:305rpx;height:150px;" src="{{item.src}}" mode="scaleToFill" show-menu-by-longpress="true" class="data-v-a2dbf602"></image></view></block></view></view>
